@@ -1,6 +1,9 @@
+import java.util.*;
+
 public class Gravitacija{
     public static void main(String[] args){
-        System.out.println("OIS je zakon!");
+        Scanner sc = new Scanner(System.in);
+        System.out.println(pospesek(sc.nextDouble());
     }
     public double pospesek(double visina){
         final double KONSTANTA = 6.674 * Math.pow(10, -11);
