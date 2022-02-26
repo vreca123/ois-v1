@@ -1,6 +1,6 @@
 public class Gravitacija{
     public static void main(String[] args){
-        System.out.println("OIS smrdi!");
+        System.out.println("OIS je zakon!");
     }
     public double pospesek(double visina){
         final double KONSTANTA = 6.674 * Math.pow(10, -11);
